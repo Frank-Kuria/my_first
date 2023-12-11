@@ -12,6 +12,7 @@
 
 .header-main {
     width: 100%;
+    margin-left: 100px;
     display: flex;
     justify-content: space-between;
     
@@ -27,15 +28,24 @@
     font-size: 18px;
     color: #E5E7EB;
     display: inline;
+    margin-right: 200px;
+}
+
+.header-link-text li {
+    list-style: none;
+    
 }
 
 .header-link-text ul li {
-    list-style: none;
-    display: inline;
+    
+    display: inline-block;
 }
 
 .header-link-text ul li a {
-    text-decoration: none;
+   text-decoration: none;
+   color: #fff;
+   margin-right: 20px;
+   
     
 }
 
