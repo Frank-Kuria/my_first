@@ -49,5 +49,58 @@
     
 }
 
+.hero-main {
+    margin-top: 70px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 4px solid palevioletred;
+    
+    
+
+
+
+
+}
+
+.hero-main img {
+    width: 400px;
+    height: 150px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    border-right: 4px solid palevioletred;
+    margin-right: 10px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    line-height: 30px;
+    margin-right: 10px;
+    border-right: 4px solid palevioletred;
+    
+}
+
+
+main .header-link-text {
+    display: block;
+    background-color: #0000ff;
+    width: fit-content;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+main .header-link-text:hover {
+    background-color: #0051ff;
+    
+}
 
 
