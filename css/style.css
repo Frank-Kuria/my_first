@@ -10,6 +10,11 @@
     box-sizing: border-box;
 }
 
+/*My Header Css*/
+h3 {
+
+}
+
 .header-main {
     width: 100%;
     margin-left: 100px;
@@ -49,20 +54,17 @@
     
 }
 
+/*My Hero css*/
+
 .hero-main {
     margin-top: 70px;
     margin-left: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 4px solid palevioletred;
-    
-    
-
-
-
 
 }
+
 
 .hero-main img {
     width: 400px;
@@ -73,7 +75,6 @@
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    border-right: 4px solid palevioletred;
     margin-right: 10px;
 }
 
@@ -82,7 +83,8 @@
     color: #E5E7EB;
     line-height: 30px;
     margin-right: 10px;
-    border-right: 4px solid palevioletred;
+    margin-right: 20px;
+    
     
 }
 
@@ -102,5 +104,74 @@ main .header-link-text:hover {
     background-color: #0051ff;
     
 }
+
+/*My Category Section Css*/
+
+.index-category {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.index-category p {
+    background-color: #fff;
+    color: #111;
+    text-align: center;
+    padding-bottom: 40px;
+    flex-basis: 100%;
+}
+
+
+
+.index-category-box:nth-child(1) {
+    background-image: url(../images/programming.jpg);
+
+}
+
+.index-category-box:nth-child(2) {
+    background-image: url(../images/Photoshop.png);
+
+}
+
+.index-category-box:nth-child(3) {
+    background-image: url(../images/illustraror.png);
+
+}
+
+.index-category-box:nth-child(4) {
+    background-image: url(../images/photography.webp);
+
+}
+
+
+
+
+
+.index-category-box {
+    width: 200px;
+    height: 200px;
+    background-color: #111;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-category-box h3 {
+    font-size: 18px;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: -2 2 4 #000;
+
+}
+
+
 
 
