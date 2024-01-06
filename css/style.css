@@ -194,6 +194,23 @@ main .header-link-text:hover {
 
 }
 
+/*Quote section*/
+
+.quote-section {
+    width: 100%;
+    background-color: #E5E7EB;
+    font-size: 20px;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+}
+
+.quote-section cite {
+    display: block;
+    background-color: #E5E7EB;
+    color: #000;
+    font-weight: bold;
+}
 
 
 
