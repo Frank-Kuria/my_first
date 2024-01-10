@@ -213,5 +213,52 @@ main .header-link-text:hover {
     font-weight: bold;
 }
 
+/*Footer section*/
+.footer-main {
+    padding: 60px 0 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action {
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 20px;
+    background-color: #3882f6;
+    color: #fff;
+}
+
+.call-to-action h4 {
+    font-size: 20px;
+    background-color: #3882f6;
+
+}
+
+.call-to-action p {
+    background-color: #3882f6;
+
+}
+
+.call-to-action button {
+    display: inline;
+    margin-top: 10px;
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    margin-left: 400px;
+    
+    
+    
+
+}
+
+
 
 
