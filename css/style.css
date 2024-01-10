@@ -203,6 +203,7 @@ main .header-link-text:hover {
     font-style: italic;
     padding: 20px;
     text-align: center;
+    line-height: 30px;
 }
 
 .quote-section cite {
